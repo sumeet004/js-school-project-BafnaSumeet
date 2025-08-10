@@ -11,4 +11,9 @@ Includes:
 - Timeline section
 - Modal placeholder
 
-Built with semantic HTML, no styling yet.
+Now updated with:
+- Basic CSS styling for header and timeline
+- Responsive layout for mobile, tablet, and desktop
+- Placeholder styles for event markers and modal
+
+Next step: add interactivity and real timeline events.
