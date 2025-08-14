@@ -3,17 +3,21 @@ Timeline App Project for JS School
 
 # Timeline App
 
-Basic HTML skeleton for a timeline app.
+This is a simple timeline app where you can see events in a clean layout.
 
-Includes:
-- Header with title and theme toggle
-- Empty nav for filters
-- Timeline section
-- Modal placeholder
+## What’s inside
 
-Now updated with:
-- Basic CSS styling for header and timeline
-- Responsive layout for mobile, tablet, and desktop
-- Placeholder styles for event markers and modal
+- A header with the app title and a theme toggle button
+- A placeholder navigation for filters (can add later)
+- Timeline section where event markers appear dynamically
+- A modal that shows details when you click an event
 
-Next step: add interactivity and real timeline events.
+## What I’ve done so far
+
+**Task 1:** Created the basic HTML structure.  
+**Task 2:** Added CSS for styling and made it responsive for mobile, tablet, and desktop. Event markers and modal have basic placeholder styles.  
+**Task 3:** Added JavaScript to make it interactive:  
+  - Fetches events from `events.json`  
+  - Generates timeline markers automatically  
+  - Click a marker to open a modal with event details and images  
+  - Close the modal with a button

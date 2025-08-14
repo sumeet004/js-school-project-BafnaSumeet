@@ -1,0 +1,58 @@
+[
+  {
+    "year": "2000",
+    "title": "Started School",
+    "description": "My first day at school — scary and exciting!",
+    "imageURL": "https://source.unsplash.com/300x200/?school",
+    "category": "Education"
+  },
+  {
+    "year": "2005",
+    "title": "First Computer",
+    "description": "Got my first personal computer — spent hours exploring.",
+    "imageURL": "https://source.unsplash.com/300x200/?computer",
+    "category": "Personal"
+  },
+  {
+    "year": "2010",
+    "title": "High School Graduation",
+    "description": "Finished high school and celebrated with friends.",
+    "imageURL": "https://source.unsplash.com/300x200/?graduation",
+    "category": "Education"
+  },
+  {
+    "year": "2012",
+    "title": "First Job",
+    "description": "Started working at my first part-time job.",
+    "imageURL": "https://source.unsplash.com/300x200/?office",
+    "category": "Career"
+  },
+  {
+    "year": "2015",
+    "title": "College Graduation",
+    "description": "Graduated with my degree — proud moment for my family.",
+    "imageURL": "https://source.unsplash.com/300x200/?college",
+    "category": "Education"
+  },
+  {
+    "year": "2017",
+    "title": "Moved to a New City",
+    "description": "Relocated for a better career opportunity.",
+    "imageURL": "https://source.unsplash.com/300x200/?city",
+    "category": "Personal"
+  },
+  {
+    "year": "2020",
+    "title": "Remote Work",
+    "description": "Started working remotely during the pandemic.",
+    "imageURL": "https://source.unsplash.com/300x200/?remote,work",
+    "category": "Career"
+  },
+  {
+    "year": "2023",
+    "title": "New Hobby",
+    "description": "Picked up photography as a creative outlet.",
+    "imageURL": "https://source.unsplash.com/300x200/?photography",
+    "category": "Hobby"
+  }
+]
