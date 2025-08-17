@@ -20,4 +20,9 @@ This is a simple timeline app where you can see events in a clean layout.
   - Fetches events from `events.json`  
   - Generates timeline markers automatically  
   - Click a marker to open a modal with event details and images  
-  - Close the modal with a button
+  - Close the modal with a button  
+**Task 4:** Converted the code to TypeScript with modular structure:  
+  - Defined interfaces for event data to enforce type safety  
+  - Split code into modules: `fetcher.ts`, `renderer.ts`, `modal.ts`, etc.  
+  - Configured `tsconfig.json` with strict mode  
+  - Compiled TypeScript to JavaScript in `dist/` and verified it works in the browser  
