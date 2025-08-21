@@ -1,0 +1,65 @@
+/* Header.css */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  transition: color 0.3s;
+}
+
+header button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+header.light {
+  background-color: #4a90e2;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header.light button {
+  background-color: #fff;
+  color: #4a90e2;
+}
+
+header.light button:hover {
+  background-color: #dbe9ff;
+}
+
+/* Dark Theme - Dark Blue */
+header.dark {
+  background-color: #0d2a4d; /* dark navy blue */
+  color: #f5f5f5;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+header.dark button {
+  background-color: #14509e; /* slightly brighter blue for button */
+  color: #fff;
+}
+
+header.dark button:hover {
+  background-color: #1a64c2; /* hover effect */
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}

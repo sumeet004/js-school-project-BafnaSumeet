@@ -1,0 +1,80 @@
+/* Timeline container */
+.timeline {
+  display: flex;
+  flex-wrap: wrap;             /* allow markers to wrap to next line */
+  justify-content: flex-start;  /* start from left */
+  align-items: flex-start;     /* align markers to top */
+  gap: 2rem 4rem;              /* vertical and horizontal spacing */
+  padding: 1rem;               /* slight padding */
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;            /* horizontal scroll if needed */
+  overflow-y: visible;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light theme */
+.timeline.light {
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Dark theme */
+.timeline.dark {
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+}
+
+/* Timeline marker */
+.event-marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+/* Light theme marker */
+.event-marker.light {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #4a90e2;
+}
+
+/* Dark theme marker */
+.event-marker.dark {
+  color: #fff;
+  background-color: #2a3b5c;  /* dark blue instead of black */
+  border: 2px solid #88c0ff;
+}
+
+.event-marker:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 800px) {
+  .timeline {
+    gap: 1.5rem 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .timeline {
+    gap: 1rem 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .event-marker {
+    width: 50px;
+    height: 50px;
+    font-size: 0.9rem;
+  }
+}

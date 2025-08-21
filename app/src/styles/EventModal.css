@@ -1,0 +1,94 @@
+/* EventModal.css */
+.event-modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+/* Light Overlay */
+.event-modal-overlay.light {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Dark Overlay */
+.event-modal-overlay.dark {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.event-modal-content {
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  overflow-y: auto;
+  max-height: 90vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+.event-modal-content.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.event-modal-content.light button {
+  background-color: #ddd;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-modal-content.light button:hover {
+  background-color: #ccc;
+}
+
+/* Dark Theme */
+.event-modal-content.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.event-modal-content.dark button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-modal-content.dark button:hover {
+  background-color: #555;
+}
+
+/* Images inside modal */
+.event-modal-content img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .event-modal-content {
+    padding: 1rem;
+    max-width: 90%;
+  }
+
+  .event-modal-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .event-modal-content p {
+    font-size: 0.9rem;
+  }
+}

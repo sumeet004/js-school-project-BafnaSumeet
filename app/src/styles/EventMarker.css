@@ -1,0 +1,32 @@
+/* EventMarker.css */
+.event-marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+/* Light Theme */
+.event-marker.light {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #4a90e2;
+}
+
+/* Dark Theme */
+.event-marker.dark {
+  color: #fff;
+  background-color: #444;
+  border: 2px solid #88c0ff;
+}
+
+.event-marker:hover {
+  transform: scale(1.2);
+}

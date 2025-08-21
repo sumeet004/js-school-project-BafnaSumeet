@@ -1,0 +1,68 @@
+import type { TimelineEvent } from '../types/types';
+
+export const events: TimelineEvent[] = [
+  {
+    id: 'e1',
+    year: 2000,
+    title: 'Project Kickoff',
+    description: 'Initial version of the timeline app created.',
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=60',
+    tags: ['start', 'milestone'],
+  },
+  {
+    id: 'e2',
+    year: 2005,
+    title: 'First Major Update',
+    description: 'Added more features and improved responsiveness.',
+    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=60',
+    tags: ['update'],
+  },
+  {
+    id: 'e3',
+    year: 2010,
+    title: 'New Design Launch',
+    description: 'Redesigned UI with better accessibility.',
+    image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=500&q=60',
+    tags: ['design', 'accessibility'],
+  },
+  {
+    id: 'e4',
+    year: 2015,
+    title: 'Performance Optimization',
+    description: 'App performance significantly improved and bugs fixed.',
+    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=500&q=60',
+    tags: ['performance', 'optimization'],
+  },
+  {
+    id: 'e5',
+    year: 2020,
+    title: 'Mobile Support Added',
+    description: 'Timeline app became fully responsive on mobile devices.',
+    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=500&q=60',
+    tags: ['mobile', 'update'],
+  },
+  {
+    id: 'e6',
+    year: 2025,
+    title: 'AI Integration',
+    description: 'Integrated AI features for intelligent suggestions.',
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=60',
+    tags: ['AI', 'feature'],
+  },
+  {
+    id: 'e7',
+    year: 2030,
+    title: 'Cloud Sync',
+    description: 'Added cloud synchronization across multiple devices.',
+    image: 'https://images.unsplash.com/photo-1581093588401-9e4e0b6d3d1d?auto=format&fit=crop&w=500&q=60',
+    tags: ['cloud', 'sync'],
+  },
+  {
+    id: 'e8',
+    year: 2035,
+    title: 'Next-Gen UI',
+    description: 'Completely revamped UI for futuristic look and feel.',
+    image: 'https://images.unsplash.com/photo-1581092795361-65a2b3cd74a7?auto=format&fit=crop&w=500&q=60',
+    tags: ['design', 'future'],
+  },
+];
