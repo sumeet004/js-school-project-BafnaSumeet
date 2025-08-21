@@ -1,6 +1,6 @@
 // src/components/Header.tsx
 import React from 'react';
-import '../styles/Header.css'; // import the CSS
+import '../styles/Header.css';
 
 type HeaderProps = {
   theme: 'light' | 'dark';
@@ -9,7 +9,7 @@ type HeaderProps = {
 
 const Header: React.FC<HeaderProps> = ({ theme, toggleTheme }) => {
   return (
-    <header style={{ display: 'flex', justifyContent: 'space-between', padding: '1rem', alignItems: 'center' }}>
+    <header className={theme}>
       <h1>Timeline App</h1>
       <button onClick={toggleTheme}>
         Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode

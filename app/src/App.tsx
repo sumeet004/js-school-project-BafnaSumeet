@@ -5,7 +5,7 @@ import { events } from './data/events';
 import Header from './components/Header';
 import Timeline from './components/Timeline';
 import EventModal from './components/EventModal';
-import './App.css'; // Import global CSS
+import './App.css';
 
 export default function App() {
   const [eventList, setEventList] = useState<TimelineEvent[]>([]);
@@ -28,7 +28,7 @@ export default function App() {
     <div className={`App ${theme}`}>
       <Header theme={theme} toggleTheme={toggleTheme} />
       <Timeline events={eventList} onEventClick={handleEventClick} theme={theme} />
-      <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} />
+      <EventModal event={selectedEvent} onClose={() => setSelectedEvent(null)} theme={theme} />
     </div>
   );
 }

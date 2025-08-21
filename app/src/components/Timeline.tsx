@@ -1,3 +1,4 @@
+// src/components/Timeline.tsx
 import React from 'react';
 import type { TimelineEvent } from '../types/types';
 import EventMarker from './EventMarker';
@@ -11,7 +12,7 @@ type TimelineProps = {
 
 const Timeline: React.FC<TimelineProps> = ({ events, onEventClick, theme }) => {
   return (
-    <div className="timeline">
+    <div className={`timeline ${theme}`}>
       {events.map((event) => (
         <EventMarker
           key={event.id}
