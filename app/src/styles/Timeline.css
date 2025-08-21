@@ -1,0 +1,11 @@
+.timeline {
+  display: flex;
+  flex-direction: row;          /* horizontal timeline */
+  justify-content: flex-start;  /* start from left */
+  align-items: center;          /* vertical center */
+  gap: 2rem;                    /* spacing between markers */
+  padding: 2rem;
+  overflow-x: auto;             /* scroll if too many markers */
+  width: 100%;
+  box-sizing: border-box;
+}

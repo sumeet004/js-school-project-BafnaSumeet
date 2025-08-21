@@ -1,0 +1,32 @@
+.event-marker {
+  display: flex;               /* flex layout for centering */
+  justify-content: center;     /* horizontal center */
+  align-items: center;         /* vertical center */
+  width: 60px;                 /* circle width */
+  height: 60px;                /* circle height */
+  border-radius: 50%;          /* perfect circle */
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  flex-shrink: 0;              /* prevent shrinking in flex row */
+  border: 2px solid #4a90e2;  /* border color */
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+/* light theme */
+.light .event-marker {
+  color: #000;                 /* text color */
+  background-color: #fff;      /* circle background */
+  border-color: #4a90e2;
+}
+
+/* dark theme */
+.dark .event-marker {
+  color: #fff;                 /* text color */
+  background-color: #444;      /* circle background */
+  border-color: #88c0ff;
+}
+
+.event-marker:hover {
+  transform: scale(1.2);
+}

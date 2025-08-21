@@ -1,0 +1,31 @@
+.event-modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.event-modal-content img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Smaller screens */
+@media (max-width: 500px) {
+  .event-modal-content {
+    padding: 1rem;
+    max-width: 90%;
+  }
+
+  .event-modal-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .event-modal-content p {
+    font-size: 0.9rem;
+  }
+}
